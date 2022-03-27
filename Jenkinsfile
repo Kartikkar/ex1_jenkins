@@ -8,8 +8,8 @@ sh "touch 2.txt"
 }
   stage('build') {
     steps {
-      "vi 2.txt"
-      "Welcome"
+     sh "vi 2.txt"
+     sh "Welcome"
     }
   }
 }
