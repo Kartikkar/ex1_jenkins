@@ -4,7 +4,7 @@ stages {
 stage('checkout') {
 steps { 
 sh "touch 2.txt"
-sh "echo "Welcome""
+"echo "Welcome""
 }
 }
 }
