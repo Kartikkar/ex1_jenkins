@@ -3,13 +3,8 @@ agent any
 stages { 
 stage('checkout') {
 steps { 
-echo "welcome"
+touch 2.txt
 }
-  stage('build') {
-    steps {
-      "mvn clean package"
-        }
-  }
 }
 }
 }
