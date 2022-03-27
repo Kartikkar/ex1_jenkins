@@ -7,7 +7,7 @@ echo "welcome"
 }
   stage('build') {
     steps {
-      mvn clean package
+      "mvn clean package"
         }
   }
 }
